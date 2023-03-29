@@ -8,15 +8,16 @@ function ispisNeparnih() {
         }
     }
 }
-console.log(ispisNeparnih);
+// ispisNeparnih();
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
-console.log("Upisi broj 1-4 za godisnje doba: ")
+console.log("Upisi broj 1-4 za godisnje doba: ");
 
-switch (Input.console) {
+function godisnjadoba(x) {
+switch (x) {
     case 1:
         console.log("Jesen");
         break;
@@ -34,7 +35,8 @@ switch (Input.console) {
         console.log("Niste upisali broj 1-4.")
         break;
 }
-
+}
+// godisnjadoba(3);
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
@@ -45,6 +47,8 @@ function okreni_broji(uneseniString) {
     let duljina = uneseniString.length;
     console.log(duljina);
 }
+
+okreni_broji(uneseniString);
 
 //4 (4 BODA)
 //Napisi funkciju koja odreduje najdulju vrijednostu u danom objektu
