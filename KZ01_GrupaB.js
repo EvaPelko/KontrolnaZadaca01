@@ -1,6 +1,8 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje neparne brojeve od 0 do 100
-function ispisNeparnih(x) {
+let numbers = [0, 1, 2];
+
+function ispisNeparnih() {
     
 }
 
@@ -8,13 +10,24 @@ function ispisNeparnih(x) {
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
-
-switch (key) {
-    case value:
-        
+console.log("Upisi broj 1-4 za godisnje doba: ")
+let number = 0;
+switch (number) {
+    case 1:
+        console.log("Jesen");
         break;
-
+    case 2:
+        console.log("Proljeće");
+        break;
+    case 3:
+        console.log("Ljeto");
+         break;
+    case 4:
+        console.log("Zima");
+        break; 
+        
     default:
+        console.log("Niste upisali broj 1-4.")
         break;
 }
 
@@ -22,6 +35,11 @@ switch (key) {
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 39)
+let uneseniString = "Bla bla uneseni string";
+
+function okreni_broji(uneseniString) {
+    
+}
 
 //4 (4 BODA)
 //Napisi funkciju koja odreduje najdulju vrijednostu u danom objektu
@@ -35,6 +53,10 @@ const peopleYouShouldKnow = {
 }
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
+
+function najduljaVrijednost(somePeople => ) {
+    
+}
 
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
