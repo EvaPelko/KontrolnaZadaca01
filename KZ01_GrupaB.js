@@ -59,8 +59,9 @@ const peopleYouShouldKnow = {
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
 
-function najduljaVrijednost(somePeople =>) {
-    
+function najduljaVrijednost(somePeople) {
+    let duljina = peopleYouShouldKnow.length;
+    console.log(duljina);
 }
 
 //5 (4 BODA)
@@ -72,6 +73,10 @@ function najduljaVrijednost(somePeople =>) {
 //Napisi funkciju u obliku arrow functiona koja pretvara mala slova danih inputa u velika slova
 //INPUT: ["aa", "b1", "", null, "AAA"]
 //OUTPUT: ["AA","B1", "", null, "AAA"]
+
+array.forEach(element => {
+    
+});
 
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve drzave koji su imali manju temperaturu od one iz ulaznog parametra
@@ -99,3 +104,5 @@ const someEvents = [
 ];
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
+
+
