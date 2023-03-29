@@ -64,8 +64,16 @@ const peopleYouShouldKnow = {
 //OUTPUT: "Stroustrup"
 
 function najduljaVrijednost(somePeople) {
-    let duljina = peopleYouShouldKnow.length;
-    console.log(duljina);
+    let duljinaTop = 0;
+    let topime = "";
+    for (const x of peopleYouShouldKnow) {
+        let duljina = peopleYouShouldKnow[x].length;
+        if (duljinaTop<duljina) {
+            duljinaTop = duljina;   
+            topime = peopleYouShouldKnow[x];
+        }
+    }
+    console.log(topime);
 }
 
 //5 (4 BODA)
