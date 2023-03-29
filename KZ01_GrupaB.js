@@ -1,9 +1,12 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje neparne brojeve od 0 do 100
-let numbers = [0, 1, 2];
 
 function ispisNeparnih() {
-    
+    for (let i = 0; i < 101; i++) {
+        if (i%2 != 0) {
+            console.log(i);
+        }
+    }
 }
 
 //2 (3 BODA)
@@ -11,8 +14,8 @@ function ispisNeparnih() {
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; 
 console.log("Upisi broj 1-4 za godisnje doba: ")
-let number = 0;
-switch (number) {
+
+switch (Input.console) {
     case 1:
         console.log("Jesen");
         break;
@@ -54,7 +57,7 @@ const peopleYouShouldKnow = {
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
 
-function najduljaVrijednost(somePeople => ) {
+function najduljaVrijednost(somePeople =>) {
     
 }
 
