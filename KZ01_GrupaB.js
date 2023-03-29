@@ -8,6 +8,7 @@ function ispisNeparnih() {
         }
     }
 }
+console.log(ispisNeparnih);
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
@@ -41,7 +42,8 @@ switch (Input.console) {
 let uneseniString = "Bla bla uneseni string";
 
 function okreni_broji(uneseniString) {
-    
+    let duljina = uneseniString.length;
+    console.log(duljina);
 }
 
 //4 (4 BODA)
